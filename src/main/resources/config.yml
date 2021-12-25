@@ -1,0 +1,35 @@
+message:
+  prefix: '&6Server &8>>'
+  nopermission: '&cDu hast keine Rechte für diesen Befehl'
+  onlyplayer: '&cDieser Befehl ist nur für die Console!'
+  usage: '&6Nutze&8: &9/%command%'
+  commands:
+    breakblock:
+      permission: 'minevale.command.breakblock'
+      noblock: '&cDas ist kein Block'
+      blockbreaked: '&7Der Block &9%block% &7konnte Zerstört werden!'
+      noplot: '&cDieser Block kann nicht Zerstört werden!'
+      inventoryfull: '&cDu hast ein volles Inventar!'
+    plotholo:
+      usage:
+        - 'LINE1'
+        - 'LINE2'
+        - 'LINE3'
+        - 'LINE4'
+      permission: 'minevale.command.plotholo'
+      holocreated: '&7Das Hologram &9%holoname% &7wurde &aerstellt!'
+      holodeleted: '&7Das Hologram &9%holoname% &7wurde &cgelöscht!'
+      holoexist: '&cDas Hologram &9%holoname% &cexistiert bereits!'
+      holonotexist: '&cDas Hologram &9%holoname% &cexistiert nicht!'
+      noplot: '&cDu kannst hier keine Hologramme erstellen!'
+      holonofound: '&cEs wurde kein Hologram in der Nähe gefunden!'
+      holotextedit: '&7Der Text bei dem Hologram wurde geändert!'
+    sign:
+      permission: 'minevale.command.sign'
+      bypasspermission: 'minevale.command.sign.bypasscooldown'
+      noitem: '&cDu hast keine Item in der Hand'
+      cooldown: '&cDu hast bereits innerhalb von 4 Stunden diesen Command benutzt'
+      signed: '&7Das Item wurde signiert!'
+      lore:
+        - '&7Signiert von &a%player% &7am &a%date%'
+        - '%sign%'
